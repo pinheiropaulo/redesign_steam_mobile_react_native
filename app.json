@@ -3,8 +3,6 @@
     "name": "redesign_steam_mobile_react_native",
     "slug": "redesign_steam_mobile_react_native",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"]
   }
 }
