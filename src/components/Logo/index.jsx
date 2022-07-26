@@ -1,13 +1,10 @@
-import { StyleSheet } from "react-native";
-import Logo from "../../assets/svg/steam_logo.svg";
+import Logo from '../../assets/svg/steam_logo.svg';
+import { Container } from './styles';
 
 export function SteamLogo() {
-  return <Logo style={styles.logo} />;
+  return (
+    <Container>
+      <Logo />
+    </Container>
+  );
 }
-
-const styles = StyleSheet.create({
-  logo: {
-    marginBottom: 45,
-    marginTop: 155,
-  },
-});
